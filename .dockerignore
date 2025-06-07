@@ -1,4 +1,10 @@
-/.env
-/banner.jpg
-/pp.png
-/README.md
+.env
+banner.jpg
+pp.png
+README.md
+node_modules
+.github
+Dockerfile
+docker-compose.yml
+.gitignore
+.dockerignore
