@@ -1,0 +1,11 @@
+services:
+  nostr-battle:
+    image: ghcr.io/nogringo/nostrfr:latest
+    environment:
+      - NSEC=${NSEC}
+    restart: unless-stopped
+    volumes:
+      - config:/usr/src/app/config
+
+volumes:
+  config:
